@@ -1,0 +1,40 @@
+{
+    "name": "sog-gulp-rev-collector",
+    "version": "0.0.1",
+    "description": "Static asset revision replace their links.",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mayong43111/sog-gulp-rev-collector"
+    },
+    "author": {
+        "name": "mayong",
+        "email": "mayong@seagull2.cn"
+    },
+    "main": "index.js",
+    "files": [
+        "index.js"
+    ],
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "keywords": [
+        "gulpplugin",
+        "gulp",
+        "rev",
+        "revision",
+        "version",
+        "versioning",
+        "static",
+        "asset",
+        "assets",
+        "collect",
+        "collector"
+    ],
+    "dependencies": {
+        "gulp-util": "^3.0.0",
+        "through2": ">=0.5.1",
+        "underscore": "^1.6.0",
+        "escape-string-regexp": "^1.0.5"
+    }
+}
